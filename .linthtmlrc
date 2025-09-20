@@ -1,3 +1,7 @@
 {
-  "extends": "linthtml-config-htmlacademy"
+  "extends": "linthtml-config-htmlacademy",
+  "scripts": {
+    "lint:html": "npm run lint:html",
+    "lint:css": "npx stylelint '**/*.css'"
+  }
 }
